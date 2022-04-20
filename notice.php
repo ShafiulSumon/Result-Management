@@ -17,13 +17,13 @@
     </div>
     <div class="down">
       <div class="logo">
-        <a href="index.html"><img src="images/logo.png" alt="logo"></a>
+        <a href="index.php"><img src="images/logo.png" alt="logo"></a>
       </div>
       <ul class="logo-area">
-        <li> <a href="index.html">Home</a></li>
-        <li> <a href="notice.html">Notice Board</a></li>
-        <li> <a href="about.html">About</a></li>
-        <li> <a href="login.html">LogIn</a></li>
+        <li> <a href="index.php">Home</a></li>
+        <li> <a href="notice.php">Notice Board</a></li>
+        <li> <a href="about.php">About</a></li>
+        <li> <a href="login.php">LogIn</a></li>
       </ul>
     </div>
   </div>

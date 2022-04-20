@@ -17,21 +17,29 @@
     </div>
     <div class="down">
       <div class="logo">
-        <a href="index.html"><img src="images/logo.png" alt="logo"></a>
+        <a href="index.php"><img src="images/logo.png" alt="logo"></a>
       </div>
       <ul class="logo-area">
-        <li> <a href="index.html">Home</a> </li>
-        <li> <a href="notice.html">Notice Board</a></li>
-        <li> <a href="about.html">About</a></li>
-        <li> <a href="login.html">LogIn</a></li>
+        <li> <a href="index.php">Home</a></li>
+        <li> <a href="notice.php">Notice Board</a></li>
+        <li> <a href="about.php">About</a></li>
+        <li> <a href="login.php">LogIn</a></li>
       </ul>
     </div>
   </div>
 
   <div class="main">
-    <div class="about-text">
-      <h2>This System is only for Dept. of CSE, Begum Rokeya University, Rangpur.</h2>
-    </div>
+    <form action="studentinfo.php" class="signup-info" method="post">
+      <input type="text" name="name" placeholder="Your name" required>
+      <br>
+      <input type="number" name="classid" placeholder="Class ID" required min="1505001" max="1505040">
+      <br>
+      <input type="email" name="email" placeholder="Email" required>
+      <br>
+      <input type="password" name="password" placeholder="Password" required>
+      <br>
+      <button>SignUp</button>
+    </form>
   </div>
 
   <div class="footer">
