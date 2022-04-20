@@ -6,8 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&family=Palette+Mosaic&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&family=Palette+Mosaic&display=swap" rel="stylesheet">
   <title>RMS</title>
 </head>
 <body>
@@ -17,21 +17,27 @@
     </div>
     <div class="down">
       <div class="logo">
-        <a href="index.html"><img src="images/logo.png" alt="logo"></a>
+        <a href="index.php"><img src="images/logo.png" alt="logo"></a>
       </div>
       <ul class="logo-area">
-        <li> <a href="index.html">Home</a></li>
-        <li> <a href="notice.html">Notice Board</a></li>
-        <li> <a href="about.html">About</a></li>
-        <li> <a href="login.html">LogIn</a></li>
+        <li> <a href="index.php">Home</a></li>
+        <li> <a href="notice.php">Notice Board</a></li>
+        <li> <a href="about.php">About</a></li>
+        <li> <a href="login.php">LogIn</a></li>
       </ul>
     </div>
   </div>
 
   <div class="main">
-    <marquee class="scroll" behavior="scroll" direction="left">
-      <h1>There is no updated notice</h1>
-    </marquee>
+    <form class="login-info">
+      <input type="email" placeholder="Email" required>
+      <br>
+      <input type="password" placeholder="Password" required>
+      <br>
+      <button>login</button>
+      <br><br>
+      <h6>Don't have any account?<a href="signup.php">SignUp now!</a></h6>
+    </form>
   </div>
 
   <div class="footer">

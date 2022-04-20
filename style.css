@@ -1,10 +1,10 @@
-*{
+* {
   margin: 0;
   padding: 0;
   font-family: 'Comfortaa', cursive;
 }
 
-body{
+body {
   box-sizing: border-box;
   margin: 5px;
   padding: 5px;
@@ -12,68 +12,68 @@ body{
   max-height: 100vh;
 }
 
-.header{
+.header {
   width: 90%;
   /* background-color: green; */
   margin: auto;
 }
 
-.logo img{
+.logo img {
   height: 120px;
   width: 150px;
   float: left;
 }
 
-.logo-area{
+.logo-area {
   float: right;
   list-style: none;
   margin-top: 30px;
 }
 
-.logo-area li{
+.logo-area li {
   display: inline-block;
 }
 
-.logo-area li a{
+.logo-area li a {
   color: white;
   font-size: 22px;
   padding: 10px;
   margin: 10px;
   border-radius: 10px;
-  background-color:rgb(241, 115, 72);
+  background-color: rgb(241, 115, 72);
   text-decoration: none;
 }
 
-.logo-area li a:hover{
-  background-color:rgb(54, 241, 101);
+.logo-area li a:hover {
+  background-color: rgb(54, 241, 101);
 }
 
 
 
-.main{
+.main {
   height: 75vh;
   width: 100%;
   border: 1px solid white;
-  background-image: linear-gradient(rgba(250, 218, 113, 0.3),rgba(206, 241, 5, 0.3)),url('images/bg.jpg');
+  background-image: linear-gradient(rgba(250, 218, 113, 0.3), rgba(206, 241, 5, 0.3)), url('images/bg.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   /* filter: blur(5px); */
 }
 
-.scroll{
+.scroll {
   width: 60%;
   padding: 50px;
   font-size: 22px;
   margin-top: 50px;
 }
 
-.about-text{
+.about-text {
   height: 35%;
   padding: 15px;
   border-radius: 20px;
 }
 
-.footer{
+.footer {
   background-image: linear-gradient(rgba(252, 205, 234, 0.5), rgba(252, 205, 234, 0.5)), url('images/footer-bg.jpg');
   background-position: center;
   background-size: cover;
@@ -81,19 +81,19 @@ body{
   color: white;
 }
 
-.footer-icons li{
+.footer-icons li {
   list-style: none;
   display: inline-block;
 }
 
-.footer-icons li img{
+.footer-icons li img {
   height: 60px;
   width: 60px;
   border-radius: 55%;
 }
 
 
-.about-text{
+.about-text {
   text-align: center;
   position: absolute;
   top: 30%;
@@ -103,7 +103,7 @@ body{
   background-color: rgba(256, 256, 256, 0.7);
 }
 
-.login-info{
+.login-info {
   text-align: center;
   position: absolute;
   top: 25%;
@@ -116,19 +116,19 @@ body{
   border-radius: 10px;
 }
 
-.login-info input{
+.login-info input {
   height: 30px;
   width: 70%;
   margin: 15px;
   padding: 12px;
 }
 
-button{
+button {
   height: 50px;
   width: 30%;
 }
 
-.signup-info{
+.signup-info {
   text-align: center;
   position: absolute;
   top: 20%;
@@ -140,7 +140,7 @@ button{
   border-radius: 10px;
 }
 
-.signup-info input{
+.signup-info input {
   height: 15px;
   width: 70%;
   margin: 12px;
@@ -148,4 +148,7 @@ button{
 }
 
 
-
+.success {
+  position: absolute;
+  z-index: 1;
+}
